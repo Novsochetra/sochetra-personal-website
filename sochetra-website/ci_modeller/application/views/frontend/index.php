@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
 
-        <title>FlexyCard HTML5 Responsive vCard Template - FlexyCodes Themes</title>
+        <title>SOCHETRA NOV</title>
 
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -33,10 +33,13 @@
         <!-- CSS | Colors -->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/colors/darkBlue.css" />
 
+         <!-- CSS | Style Timeline -->
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/timeline-style.css">
+
         <!-- CSS | Style -->
         <!-- Credits: http://themeforest.net/user/FlexyCodes -->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/main.css" />
-        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/customize-main.css">
+        <!-- <link rel="stylesheet" href="<?php //echo base_url(); ?>assets/css/customize-main.css"> -->
 
         <!-- CSS | prettyPhoto -->
         <!-- Credits: http://www.no-margin-for-errors.com/ -->
@@ -176,7 +179,8 @@
                                         <ul class="resp-tabs-list">
                                             <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile" data-tab-name="profile">			
                                                 <span class="tite-list">profile</span>
-                                                <i class="fa fa-user icon_menu icon_menu_active"></i>
+                                                <a href="#"><i class="fa fa-user icon_menu icon_menu_active"></i></a>
+                                                
                                             </li>
 
                                             <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume"> 
@@ -766,7 +770,7 @@
                                             <!-- .portfolio -->
                                             <div id="portfolio" class="content_2">
                                                 <!-- .title -->
-                                                <h1 class="h-bloc">Portfolio - My Works</h1>
+                                                <h1 class="h-bloc">MY ACHIEVEMENT</h1>
 
                                                 <!-- .container-portfolio -->
                                                 <div class="container-portfolio">
@@ -774,10 +778,10 @@
                                                     <!-- #filters -->
                                                     <ul id="filters" class="clearfix">
                                                         <li><span class="filter active" data-filter="catWeb catGraphic catMotion logo">All</span></li>
-                                                        <li><span class="filter" data-filter="catWeb">Web Design</span></li>
-                                                        <li><span class="filter" data-filter="catGraphic">Graphic Design</span></li>
-                                                        <li><span class="filter" data-filter="catMotion">Motion Graphic</span></li>
-                                                        <li><span class="filter" data-filter="logo">Logo</span></li>
+                                                        <li><span class="filter" data-filter="catWeb">Website</span></li>
+                                                        <li><span class="filter" data-filter="catGraphic">Game</span></li>
+                                                        <li><span class="filter" data-filter="catMotion">Application</span></li>
+                                                        <li><span class="filter" data-filter="logo">System</span></li>
                                                     </ul>
                                                     <!-- /#filters -->
 
@@ -785,8 +789,8 @@
                                                     <div id="portfoliolist">
 
                                                         <!-- .portfolio -->
-                                                        <div class="portfolio logo" data-cat="logo">	
-                                                            <!-- .portfolio-wrapper -->
+<!--                                                        <div class="portfolio logo" data-cat="logo">	
+                                                             .portfolio-wrapper 
                                                             <div class="portfolio-wrapper">		
                                                                 <a href="http://placehold.it/600x849" rel="portfolio" title="Lorem ipsum dolor sit amet, consectetur adipiscing Vivamus sit amet ligula non lectus.consectetur adipiscingVivamus sit amet">
                                                                     <img src="http://placehold.it/600x849" alt="Visual Infography" />
@@ -799,8 +803,8 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <!-- /.portfolio-wrapper -->
-                                                        </div>		
+                                                             /.portfolio-wrapper 
+                                                        </div>		-->
                                                         <!-- /.portfolio -->
 
 
@@ -809,13 +813,13 @@
                                                         <div class="portfolio catWeb" data-cat="catWeb">	
                                                             <!-- .portfolio-wrapper -->
                                                             <div class="portfolio-wrapper">		
-                                                                <a href="http://www.youtube.com/watch?v=c9MnSeYYtYY" rel="portfolio">
+                                                                <a href="<?php echo base_url(); ?>assets/images/website/personalSite.png" title=" After completed the bootstrap self learning, I built the static website about my self" rel="portfolio">
 
-                                                                    <img src="http://placehold.it/600x849" alt="Visual Infography" />
+                                                                    <img src="<?php echo base_url(); ?>assets/images/website/personalSite.png" alt="Visual Infography" />
                                                                     <div class="label">
                                                                         <div class="label-text">
-                                                                            <a class="text-title">Project Name</a>
-                                                                            <span class="text-category">Web Design</span>
+                                                                            <a class="text-title">Personal Website</a>
+                                                                            <span class="text-category"></span>
                                                                         </div>
                                                                         <div class="label-bg"></div>
                                                                     </div>
@@ -829,12 +833,12 @@
                                                         <div class="portfolio catWeb" data-cat="catWeb">
                                                             <!-- .portfolio-wrapper -->
                                                             <div class="portfolio-wrapper">			
-                                                                <a href="http://placehold.it/600x849" rel="portfolio">
-                                                                    <img src="http://placehold.it/600x849" alt="Sonor's Design" />
+                                                                <!--<a href="<?php echo base_url(); ?>assets/images/wordpressWebsite.png" title="It is the wordpress Project that spend a week to completed this website." rel="portfolio">-->
+                                                                    <img src="<?php echo base_url(); ?>assets/images/website/wordpressWebsite.png" alt="Sonor's Design" />
                                                                     <div class="label">
                                                                         <div class="label-text">
-                                                                            <a class="text-title">Project Name</a>
-                                                                            <span class="text-category">Web design</span>
+                                                                            <a class="text-title">Ti Krong Sabay</a>
+                                                                            <span class="text-category"></span>
                                                                         </div>
                                                                         <div class="label-bg"></div>
                                                                     </div>
@@ -845,34 +849,34 @@
                                                         <!-- /.portfolio -->
 
                                                         <!-- .portfolio -->
-                                                        <div class="portfolio catMotion" data-cat="catMotion">
-                                                            <!-- .portfolio-wrapper -->
+<!--                                                        <div class="portfolio catMotion" data-cat="catMotion">
+                                                             .portfolio-wrapper 
                                                             <div class="portfolio-wrapper">			
-                                                                <a href="http://placehold.it/600x849" rel="portfolio">
-                                                                    <img src="http://placehold.it/600x849" alt="Typography Company" />
+                                                                <a href="<?php echo base_url(); ?>assets/images/website/KITS.png" title="This is the WEB Project II." rel="portfolio">
+                                                                    <img src="<?php echo base_url(); ?>assets/images/website/KITS.png" alt="Typography Company" />
                                                                     <div class="label">
                                                                         <div class="label-text">
-                                                                            <a class="text-title">Project Name</a>
-                                                                            <span class="text-category">Motion Graphic</span>
+                                                                            <a class="text-title">Khmer IT Solution Service</a>
+                                                                            <span class="text-category"></span>
                                                                         </div>
                                                                         <div class="label-bg"></div>
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <!-- /.portfolio-wrapper -->
-                                                        </div>	
+                                                             /.portfolio-wrapper 
+                                                        </div>	-->
                                                         <!-- /.portfolio -->
 
                                                         <!-- .portfolio -->
                                                         <div class="portfolio catWeb" data-cat="catWeb">
                                                             <!-- .portfolio-wrapper -->
                                                             <div class="portfolio-wrapper">
-                                                                <a href="http://placehold.it/600x849" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">
-                                                                    <img src="http://placehold.it/600x849" alt="Weatherette" />
+                                                                <a href="<?php echo base_url(); ?>assets/images/website/KITS.png" title="This is the WEB Project II." rel="portfolio">
+                                                                    <img src="<?php echo base_url(); ?>assets/images/website/KITS.png" alt="Weatherette" />
                                                                     <div class="label">
                                                                         <div class="label-text">
-                                                                            <a class="text-title">Project Name</a>
-                                                                            <span class="text-category">Web Design</span>
+                                                                            <a class="text-title">Khmer IT Solution Service</a>
+                                                                            <span class="text-category"></span>
                                                                         </div>
                                                                         <div class="label-bg"></div>
                                                                     </div>
@@ -883,8 +887,8 @@
                                                         <!-- /.portfolio -->
 
                                                         <!-- .portfolio -->
-                                                        <div class="portfolio catMotion" data-cat="catMotion">
-                                                            <!-- .portfolio-wrapper -->
+<!--                                                        <div class="portfolio catMotion" data-cat="catMotion">
+                                                             .portfolio-wrapper 
                                                             <div class="portfolio-wrapper">		
                                                                 <a href="http://placehold.it/600x849" rel="portfolio">				
                                                                     <img src="http://placehold.it/600x849" alt="BMF" />
@@ -897,32 +901,13 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <!-- /.portfolio-wrapper -->
-                                                        </div>	
+                                                             /.portfolio-wrapper 
+                                                        </div>	-->
                                                         <!-- /.portfolio -->
 
                                                         <!-- .portfolio -->
-                                                        <div class="portfolio catGraphic" data-cat="catGraphic">
-                                                            <!-- .portfolio-wrapper -->
-                                                            <div class="portfolio-wrapper">		
-                                                                <a href="http://placehold.it/600x849" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">				
-                                                                    <img src="http://placehold.it/600x849" alt="Techlion" />
-                                                                    <div class="label">
-                                                                        <div class="label-text">
-                                                                            <a class="text-title">Project Name</a>
-                                                                            <span class="text-category">Graphic Design</span>
-                                                                        </div>
-                                                                        <div class="label-bg"></div>
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                            <!-- /.portfolio-wrapper -->
-                                                        </div>
-                                                        <!-- /.portfolio -->
-
-                                                        <!-- .portfolio -->
-                                                        <div class="portfolio logo" data-cat="logo">
-                                                            <!-- .portfolio-wrapper -->
+<!--                                                        <div class="portfolio logo" data-cat="logo">
+                                                             .portfolio-wrapper 
                                                             <div class="portfolio-wrapper">		
                                                                 <a href="http://placehold.it/600x849" rel="portfolio" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien.">
                                                                     <img src="http://placehold.it/600x849" alt="KittyPic" />
@@ -935,13 +920,13 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <!-- /.portfolio-wrapper -->
-                                                        </div>	
+                                                             /.portfolio-wrapper 
+                                                        </div>	-->
                                                         <!-- /.portfolio -->
 
                                                         <!-- .portfolio -->
-                                                        <div class="portfolio catWeb" data-cat="catWeb">
-                                                            <!-- .portfolio-wrapper -->
+<!--                                                        <div class="portfolio catWeb" data-cat="catWeb">
+                                                             .portfolio-wrapper 
                                                             <div class="portfolio-wrapper">			
                                                                 <a href="http://placehold.it/600x849" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">
                                                                     <img src="http://placehold.it/600x849" alt="Graph Plotting" />
@@ -954,20 +939,39 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <!-- /.portfolio-wrapper -->
-                                                        </div>	
+                                                             /.portfolio-wrapper 
+                                                        </div>	-->
                                                         <!-- /.portfolio -->
 
                                                         <!-- .portfolio -->
                                                         <div class="portfolio catGraphic" data-cat="catGraphic">
                                                             <!-- .portfolio-wrapper -->
                                                             <div class="portfolio-wrapper">	
-                                                                <a href="http://placehold.it/600x849" rel="portfolio">
-                                                                    <img src="http://placehold.it/600x849" alt="QR Quick Response" />
+                                                                <a href="<?php echo base_url();?>assets/images/GAME/ballGame.png" title="I built this game just testing bout my knowledge about JavaScript." rel="portfolio">
+                                                                    <img src="<?php echo base_url();?>assets/images/GAME/ballGame.png" alt="QR Quick Response" />
                                                                     <div class="label">
                                                                         <div class="label-text">
-                                                                            <a class="text-title">Project Name</a>
-                                                                            <span class="text-category">Graphic Design</span>
+                                                                            <a class="text-title">Ball Game</a>
+                                                                            <span class="text-category"></span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>	
+                                                        <!-- /.portfolio -->
+                                                        
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">	
+                                                                <a href="<?php echo base_url();?>assets/images/GAME/fishGame.png" title="This game was built for a project at my school to finish the course JQuery." rel="portfolio">
+                                                                    <img src="<?php echo base_url();?>assets/images/GAME/fishGame.png" alt="QR Quick Response" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">Fish Game</a>
+                                                                            <span class="text-category"></span>
                                                                         </div>
                                                                         <div class="label-bg"></div>
                                                                     </div>
@@ -978,8 +982,8 @@
                                                         <!-- /.portfolio -->
 
                                                         <!-- .portfolio -->
-                                                        <div class="portfolio logo" data-cat="logo">
-                                                            <!-- .portfolio-wrapper -->
+<!--                                                        <div class="portfolio logo" data-cat="logo">
+                                                             .portfolio-wrapper 
                                                             <div class="portfolio-wrapper">	
                                                                 <a href="http://placehold.it/600x849" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">
                                                                     <img src="http://placehold.it/600x849" alt="Mobi Sock" />
@@ -992,13 +996,13 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <!-- /.portfolio-wrapper -->
-                                                        </div>	
+                                                             /.portfolio-wrapper 
+                                                        </div>	-->
                                                         <!-- /.portfolio -->
 
                                                         <!-- .portfolio -->
-                                                        <div class="portfolio logo" data-cat="logo">
-                                                            <!-- .portfolio-wrapper -->
+<!--                                                        <div class="portfolio logo" data-cat="logo">
+                                                             .portfolio-wrapper 
                                                             <div class="portfolio-wrapper">
                                                                 <a href="http://placehold.it/600x849" rel="portfolio">
                                                                     <img src="http://placehold.it/600x849" alt="Village Community Church" />
@@ -1011,8 +1015,8 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <!-- /.portfolio-wrapper -->
-                                                        </div>	
+                                                             /.portfolio-wrapper 
+                                                        </div>	-->
                                                         <!-- /.portfolio -->
 
                                                         <div class="clear"></div>
@@ -1023,988 +1027,59 @@
                                                 <!-- /.container-portfolio -->
                                             </div>
                                             <!-- End .portfolio -->
-<!-- This is the blog page -->
-                                            <!-- .blog -->
-                                            <div id="blog" class="content_2">
-                                                <h1 class="h-bloc">Blog - My Blog</h1><br> 
-
-                                                <div class="col-md-12">
-                                                    <div class="row">
-
-                                                        <!-- Page Blog -->
-                                                        <div class="col-md-12" id="blog_page">
-                                                            <!-- start Page Blog -->
-                                                            <section id="blog-page">
-
-                                                                <!-- Post 1 -->	
-                                                                <article id="post-1" class="blog-article">                    
-
-                                                                    <div class="col-md-12">
-
-                                                                        <div class="row">
-
-                                                                            <div class="col-md-12 post_media">
-                                                                                <div class="post-format-icon">
-                                                                                    <a href="#" class="item-date"><span class="fa fa-picture-o"></span></a>
-                                                                                </div>
-                                                                                <div class="media">
-                                                                                    <div class="he-wrap tpl2">
-                                                                                        <div id="carousel-1" class="carousel slide" data-ride="carousel">
-
-                                                                                            <ol class="carousel-indicators">
-                                                                                                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-                                                                                                <li data-target="#carousel-1" data-slide-to="1"></li>
-                                                                                                <li data-target="#carousel-1" data-slide-to="2"></li>
-                                                                                            </ol>
-
-                                                                                            <div class="carousel-inner">
-
-                                                                                                <div class="item active">
-                                                                                                    <img src="http://placehold.it/825x340" alt="" />
-                                                                                                    <div class="carousel-caption">
-                                                                                                        <h4>First Thumbnail label</h4>
-                                                                                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                                                                                    </div>
-                                                                                                </div>
-
-
-                                                                                                <div class="item">
-                                                                                                    <img src="http://placehold.it/825x340" alt="" />
-                                                                                                    <div class="carousel-caption">
-                                                                                                        <h4>First Thumbnail label</h4>
-                                                                                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                                                                                    </div>
-                                                                                                </div>
-
-                                                                                                <div class="item">
-                                                                                                    <img src="http://placehold.it/825x340" alt="" />
-                                                                                                    <div class="carousel-caption">
-                                                                                                        <h4>First Thumbnail label</h4>
-                                                                                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                                                                                    </div>
-                                                                                                </div>
-
-                                                                                            </div>
-
-                                                                                            <a class="left carousel-control" href="#carousel-1" data-slide="prev">
-                                                                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                                                            </a>
-
-                                                                                            <a class="right carousel-control" href="#carousel-1" data-slide="next">
-                                                                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                                                            </a>
-
-                                                                                        </div>
-                                                                                    </div>
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="row">
-                                                                            <div class="col-md-12 post_content">
-                                                                                <div class="content post_format_standart">
-                                                                                    <div class="top_c ">
-
-                                                                                        <div class="title_content">
-                                                                                            <div class="text_content"><a href="#post-1" class="read_more">Blog Post Gallery</a></div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div>
-
-                                                                                        <ul class="info">
-                                                                                            <li><i class="glyphicon glyphicon-comment"></i> 2 Comments</li>
-                                                                                            <li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
-                                                                                            <li><i class="glyphicon glyphicon-user"></i> by Jane Doe</li>
-                                                                                            <li><i class="glyphicon glyphicon-tag"></i> jquery, slider, web design</li>
-                                                                                        </ul>
-
-                                                                                        <div class="blog-content">
-                                                                                            <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo...</p></div>
-                                                                                    </div>
-                                                                                </div>	
-
-                                                                                <a href="#post-1" class="read_m pull-right">Read More <i class='glyphicon glyphicon-chevron-right'></i></a>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                </article>
-                                                                <!-- End Post 1 -->
-
-                                                                <div class="clear"></div>
-
-                                                                <!-- Post 2 -->
-                                                                <article id="post-2" class="blog-article">                    
-
-                                                                    <div class="col-md-12">
-
-                                                                        <div class="row">
-
-                                                                            <div class="col-md-12 post_media">
-
-                                                                                <div class="post-format-icon">
-                                                                                    <a href="#" class="item-date"><span class="fa fa-pencil"></span></a>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="row">
-                                                                            <div class="col-md-12 post_content">
-                                                                                <div class="content post_format_standart">
-                                                                                    <div class="top_c ">
-
-                                                                                        <div class="title_content">
-                                                                                            <div class="text_content"><a href="#post-2" class="read_more">Blog Aside post</a></div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div>
-
-                                                                                        <ul class="info">
-                                                                                            <li><i class="glyphicon glyphicon-comment"></i> 2 Comments</li>
-                                                                                            <li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
-                                                                                            <li><i class="glyphicon glyphicon-user"></i> by Jane Doe</li>
-                                                                                            <li><i class="glyphicon glyphicon-tag"></i> php, web design</li>
-                                                                                        </ul>
-
-                                                                                        <div class="blog-content">
-                                                                                            <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo...</p></div>
-                                                                                    </div>
-                                                                                </div>	
-
-                                                                                <a href="#post-2" class="read_m pull-right">Read More <i class='glyphicon glyphicon-chevron-right'></i></a>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                </article>
-                                                                <!-- End Post 2 -->
-
-                                                                <div class="clear"></div>
-
-                                                                <!-- Post 3 -->
-                                                                <article id="post-3" class="blog-article">                    
-
-                                                                    <div class="col-md-12">
-
-                                                                        <div class="row">
-
-                                                                            <div class="col-md-12 post_media">
-
-                                                                                <div class="post-format-icon">
-                                                                                    <a href="#" class="item-date"><span class="fa fa-picture-o"></span></a>
-                                                                                </div>
-
-                                                                                <div class="media">
-                                                                                    <div class="he-wrap tpl2">
-                                                                                        <img src="http://placehold.it/825x340" class="img-hover" alt="" />
-                                                                                    </div>
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="row">
-                                                                            <div class="col-md-12 post_content">
-                                                                                <div class="content post_format_standart">
-                                                                                    <div class="top_c ">
-
-                                                                                        <div class="title_content">
-                                                                                            <div class="text_content"><a href="#post-3" class="read_more">Blog Post Image</a></div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div>
-
-                                                                                        <ul class="info">
-                                                                                            <li><i class="glyphicon glyphicon-comment"></i> 2 Comments</li>
-                                                                                            <li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
-                                                                                            <li><i class="glyphicon glyphicon-user"></i> by Jane Doe</li>
-                                                                                            <li><i class="glyphicon glyphicon-tag"></i> php, web design</li>
-                                                                                        </ul>
-
-                                                                                        <div class="blog-content">
-                                                                                            <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo...</p></div>
-                                                                                    </div>
-                                                                                </div>	
-
-                                                                                <a href="#post-3" class="read_m pull-right">Read More <i class='glyphicon glyphicon-chevron-right'></i></a>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                </article>
-
-                                                                <!-- End Post 3 -->
-
-                                                            </section>
-
-                                                            <!-- End Page Blog -->
-
-
-
-                                                            <!-- Page Blog - Post 1 -->
-                                                            <section id="post-1-page" class="content-post" style="display: none">
-                                                                <div class="row inner">
-
-                                                                    <div class="col-md-12" style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;float: left;background: rgba(255, 255, 255, 0.8);padding-bottom: 15px;padding-top: 15px;">
-
-                                                                        <article class="postPage">
-
-                                                                            <div class="col-md-12 post_media">
-                                                                                <div class="post-format-icon">
-                                                                                    <a href="#" class="item-date"><span class="fa fa-picture-o"></span></a>
-                                                                                </div>
-                                                                                <div class="media">
-                                                                                    <div class="he-wrap tpl2">
-                                                                                        <div id="carousel-2" class="carousel slide" data-ride="carousel">
-
-                                                                                            <ol class="carousel-indicators">
-                                                                                                <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
-                                                                                                <li data-target="#carousel-2" data-slide-to="1"></li>
-                                                                                                <li data-target="#carousel-2" data-slide-to="2"></li>
-                                                                                            </ol>
-
-                                                                                            <div class="carousel-inner">
-
-                                                                                                <div class="item active">
-                                                                                                    <img src="http://placehold.it/825x340" alt="">
-                                                                                                    <div class="carousel-caption">
-                                                                                                        <h4>First Thumbnail label</h4>
-                                                                                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                                                                                    </div>
-                                                                                                </div>
-
-
-                                                                                                <div class="item">
-                                                                                                    <img src="http://placehold.it/825x340" alt="">
-                                                                                                    <div class="carousel-caption">
-                                                                                                        <h4>First Thumbnail label</h4>
-                                                                                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                                                                                    </div>
-                                                                                                </div>
-
-                                                                                                <div class="item">
-                                                                                                    <img src="http://placehold.it/825x340" alt="">
-                                                                                                    <div class="carousel-caption">
-                                                                                                        <h4>First Thumbnail label</h4>
-                                                                                                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                                                                                    </div>
-                                                                                                </div>
-
-                                                                                            </div>
-
-                                                                                        </div>
-                                                                                    </div>
-
-                                                                                </div>
-                                                                            </div>
-
-
-                                                                            <div class="title_content">
-                                                                                <div class="text_content">Blog Post Gallery</div>
-                                                                                <div class="clear"></div>
-                                                                            </div>
-
-                                                                            <p class="caps">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with.</p>
-
-                                                                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-
-                                                                            <div class="col-md-12 first">
-                                                                                <div class="info">
-                                                                                    <div>
-                                                                                        <span class="tag">#php</span>
-                                                                                        <span class="tag">#web</span>
-                                                                                        <span class="tag">#web design</span>
-                                                                                    </div>
-
-
-                                                                                    <ul class="info-post">
-                                                                                        <li><i class="glyphicon glyphicon-comment"></i> 2 Comments</li>
-                                                                                        <li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
-                                                                                        <li><i class="glyphicon glyphicon-user"></i> by Jane Doe</li>
-                                                                                        <li><i class="glyphicon glyphicon-tag"></i> jquery, slider, web design</li>
-                                                                                    </ul>
-                                                                                </div>
-
-                                                                                <div class="clear"></div>      
-
-
-                                                                                <div class="about_author">
-                                                                                    <div class="title_content" style="margin-bottom:10px">
-                                                                                        <div class="text_content">BILL GATES</div>
-                                                                                        <div class="clear"></div>
-                                                                                    </div>
-
-                                                                                    <div class="clear"></div>
-
-                                                                                    <div class="prg_content">
-                                                                                        <img src="http://placehold.it/100x100" width="100" height="100" alt="img">
-
-                                                                                        <div class="text">
-                                                                                            Lorem ipsum dolor sit amet, consectetur
-                                                                                            adipiscing elit. Praesent condimentum sed elit
-                                                                                            vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                            amet cursus libero. In fringilla egestas ornare.
-                                                                                        </div>
-
-                                                                                        <div class="nb_post" style="margin-top: 10px;">
-                                                                                            <b id="nb_post"> 15 posts</b> created by author
-                                                                                        </div>
-                                                                                    </div>
-
-                                                                                    <div class="clear"></div>
-                                                                                </div>
-
-                                                                                <div class="clear"></div>      
-
-
-                                                                                <div class="post_comments">
-
-                                                                                    <div class="title_content">
-                                                                                        <div class="text_content">7 Comments</div>
-                                                                                        <div class="clear"></div>
-                                                                                    </div>
-
-                                                                                    <div class="clear"></div>
-
-                                                                                    <div class="comments">
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">John Doe <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="comment sub">
-                                                                                                <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                                <div class="text">
-                                                                                                    <div class="name">Bill Gates <a class="reply" href="#">Reply</a></div>
-                                                                                                    <div class="date">12, September, 2013</div>
-                                                                                                    Lorem ipsum dolor sit amet, consectetur
-                                                                                                    adipiscing elit. Praesent condimentum sed elit
-                                                                                                    vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                    amet cursus libero. In fringilla egestas ornare.
-                                                                                                </div>
-                                                                                                <div class="clear"></div>
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">John Smith <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="comment sub">
-                                                                                                <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                                <div class="text">
-                                                                                                    <div class="name">Bill Gates <a class="reply" href="#">Reply</a></div>
-                                                                                                    <div class="date">12, September, 2013</div>
-                                                                                                    Lorem ipsum dolor sit amet, consectetur
-                                                                                                    adipiscing elit. Praesent condimentum sed elit
-                                                                                                    vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                    amet cursus libero. In fringilla egestas ornare.
-                                                                                                </div>
-                                                                                                <div class="clear"></div>
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">Andrian Robert <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="comment sub">
-                                                                                                <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                                <div class="text">
-                                                                                                    <div class="name">Bill Gates <a class="reply" href="#">Reply</a></div>
-                                                                                                    <div class="date">12, September, 2013</div>
-                                                                                                    Lorem ipsum dolor sit amet, consectetur
-                                                                                                    adipiscing elit. Praesent condimentum sed elit
-                                                                                                    vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                    amet cursus libero. In fringilla egestas ornare.
-                                                                                                </div>
-                                                                                                <div class="clear"></div>
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">Andrian Robert <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-
-
-                                                                                    </div><!-- .post_comments -->
-
-                                                                                    <div class="clear"></div>      
-
-
-                                                                                    <div class="comment_form">
-                                                                                        <div class="title_content">
-                                                                                            <div class="text_content">Leave A Comment</div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div>
-
-
-                                                                                        <form method="post" id="comment_form">
-                                                                                            <p class="form-group" id="contact-name">
-                                                                                                <label for="name">Your Name</label>
-                                                                                                <input type="text" name="name" class="form-control" id="inputSuccess" placeholder="Name*...">
-                                                                                            </p>
-                                                                                            <p class="form-group" id="contact-email"> 
-                                                                                                <label for="email">Your Email</label>
-                                                                                                <input type="text" name="email" class="form-control" id="inputSuccess" placeholder="Email*...">
-                                                                                            </p>
-
-                                                                                            <p class="form-group" id="contact-message">
-                                                                                                <label for="message">Your Message</label>
-                                                                                                <textarea name="message" cols="88" rows="6" class="form-control" id="inputError" placeholder="Your Comment..."></textarea>
-                                                                                            </p>
-                                                                                            <input type="reset" name="reset" value="CLEAR" class="reset">
-                                                                                            <!--<input type="submit" name="submit" value="Post Comment" class="submit">-->
-                                                                                            <button class="submit" data-toggle="modal" data-target=".bs-example-modal-sm">Post Comment</button>
-                                                                                        </form>                        
-                                                                                        <div class="clear"></div>
-
-                                                                                    </div>
-                                                                                </div>
-
-
-
-                                                                                <div class="col-md-12" style="margin-top: 20px;">
-                                                                                    <a href="#post-2" class="readmore" id="pagination"><i class="glyphicon glyphicon-chevron-right"></i></a>
-                                                                                    <a href="#" class="readmore disabled" id="pagination"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                                                                                    <a href="#blog" class="readmore"><i class="glyphicon glyphicon-chevron-left"></i> All Posts</a>
-                                                                                </div>
-
-                                                                                <div class="clear"></div>
-
-                                                                        </article>
-                                                                    </div>
-                                                                    <div class="clear"></div>
-                                                                </div>
-                                                            </section>
-                                                            <!-- End Page Blog - Post 1 -->
-
-                                                            <!-- Page Blog - Post 2 -->
-                                                            <section id="post-2-page" class="content-post" style="display: none">
-                                                                <div class="row inner">
-
-                                                                    <div class="col-md-12" style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;float: left;background: rgba(255, 255, 255, 0.8);padding-bottom: 15px;padding-top: 15px;">
-
-                                                                        <article class="postPage">
-
-                                                                            <div class="col-md-12 post_media">
-
-                                                                                <div class="post-format-icon">
-                                                                                    <a href="#" class="item-date"><span class="fa fa-pencil"></span></a>
-                                                                                </div>
-
-                                                                            </div>
-
-                                                                            <div class="title_content">
-                                                                                <div class="text_content">BLOG ASIDE POST</div>
-                                                                                <div class="clear"></div>
-                                                                            </div>
-
-
-                                                                            <p class="caps">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with.</p>
-
-                                                                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-
-                                                                            <div class="col-md-12 first">
-                                                                                <div class="info">
-                                                                                    <div>
-                                                                                        <span class="tag">#php</span>
-                                                                                        <span class="tag">#web</span>
-                                                                                        <span class="tag">#web design</span>
-                                                                                    </div>
-
-
-                                                                                    <ul class="info-post">
-                                                                                        <li><i class="glyphicon glyphicon-comment"></i> 2 Comments</li>
-                                                                                        <li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
-                                                                                        <li><i class="glyphicon glyphicon-user"></i> by Jane Doe</li>
-                                                                                        <li><i class="glyphicon glyphicon-tag"></i> php, web design</li>
-                                                                                    </ul>
-                                                                                </div>
-
-                                                                                <div class="clear"></div>      
-
-
-                                                                                <div class="about_author">
-                                                                                    <div class="title_content" style="margin-bottom:10px">
-                                                                                        <div class="text_content">BILL GATES</div>
-                                                                                        <div class="clear"></div>
-                                                                                    </div>
-
-                                                                                    <div class="clear"></div>
-
-
-                                                                                    <div class="prg_content">
-                                                                                        <img src="http://placehold.it/100x100" width="100" height="100" alt="img">
-
-                                                                                        <div class="text">
-                                                                                            Lorem ipsum dolor sit amet, consectetur
-                                                                                            adipiscing elit. Praesent condimentum sed elit
-                                                                                            vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                            amet cursus libero. In fringilla egestas ornare.
-                                                                                        </div>
-
-                                                                                        <div class="nb_post" style="margin-top: 10px;">
-                                                                                            <b id="nb_post"> 15 posts</b> created by author
-                                                                                        </div>
-                                                                                    </div>
-
-                                                                                    <div class="clear"></div>
-                                                                                </div>
-
-                                                                                <div class="clear"></div>      
-
-
-                                                                                <div class="post_comments">
-
-                                                                                    <div class="title_content">
-                                                                                        <div class="text_content">7 Comments</div>
-                                                                                        <div class="clear"></div>
-                                                                                    </div>
-
-                                                                                    <div class="clear"></div>
-
-                                                                                    <div class="comments">
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">John Doe <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="comment sub">
-                                                                                                <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                                <div class="text">
-                                                                                                    <div class="name">Bill Gates <a class="reply" href="#">Reply</a></div>
-                                                                                                    <div class="date">12, September, 2013</div>
-                                                                                                    Lorem ipsum dolor sit amet, consectetur
-                                                                                                    adipiscing elit. Praesent condimentum sed elit
-                                                                                                    vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                    amet cursus libero. In fringilla egestas ornare.
-                                                                                                </div>
-                                                                                                <div class="clear"></div>
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">John Smith <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="comment sub">
-                                                                                                <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                                <div class="text">
-                                                                                                    <div class="name">Bill Gates <a class="reply" href="#">Reply</a></div>
-                                                                                                    <div class="date">12, September, 2013</div>
-                                                                                                    Lorem ipsum dolor sit amet, consectetur
-                                                                                                    adipiscing elit. Praesent condimentum sed elit
-                                                                                                    vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                    amet cursus libero. In fringilla egestas ornare.
-                                                                                                </div>
-                                                                                                <div class="clear"></div>
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">Andrian Robert <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="comment sub">
-                                                                                                <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                                <div class="text">
-                                                                                                    <div class="name">Bill Gates <a class="reply" href="#">Reply</a></div>
-                                                                                                    <div class="date">12, September, 2013</div>
-                                                                                                    Lorem ipsum dolor sit amet, consectetur
-                                                                                                    adipiscing elit. Praesent condimentum sed elit
-                                                                                                    vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                    amet cursus libero. In fringilla egestas ornare.
-                                                                                                </div>
-                                                                                                <div class="clear"></div>
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">Andrian Robert <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-
-
-                                                                                    </div><!-- .post_comments -->
-
-                                                                                    <div class="clear"></div>      
-
-
-                                                                                    <div class="comment_form">
-
-                                                                                        <div class="title_content">
-                                                                                            <div class="text_content">Leave A Comment</div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div>
-
-
-                                                                                        <form method="post" id="comment_form">
-                                                                                            <p class="form-group" id="contact-name">
-                                                                                                <label for="name">Your Name</label>
-                                                                                                <input type="text" name="name" class="form-control" id="inputSuccess" placeholder="Name*...">
-                                                                                            </p>
-                                                                                            <p class="form-group" id="contact-email"> 
-                                                                                                <label for="email">Your Email</label>
-                                                                                                <input type="text" name="email" class="form-control" id="inputSuccess" placeholder="Email*...">
-                                                                                            </p>
-
-                                                                                            <p class="form-group" id="contact-message">
-                                                                                                <label for="message">Your Message</label>
-                                                                                                <textarea name="message" cols="88" rows="6" class="form-control" id="inputError" placeholder="Your Comment..."></textarea>
-                                                                                            </p>
-                                                                                            <input type="reset" name="reset" value="CLEAR" class="reset">
-                                                                                            <!--<input type="submit" name="submit" value="Post Comment" class="submit">-->
-                                                                                            <button class="submit" data-toggle="modal" data-target=".bs-example-modal-sm">Post Comment</button>
-                                                                                        </form>                        
-                                                                                        <div class="clear"></div>
-
-                                                                                    </div>
-                                                                                </div>
-
-
-
-                                                                                <div class="col-md-12"  style="margin-top: 20px;">
-                                                                                    <a href="#post-3" class="readmore" id="pagination"><i class="glyphicon glyphicon-chevron-right"></i></a>
-                                                                                    <a href="#post-1" class="readmore" id="pagination"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                                                                                    <a href="#blog" class="readmore"><i class="glyphicon glyphicon-chevron-left"></i> All Posts</a>
-                                                                                </div>
-
-                                                                                <div class="clear"></div>
-
-                                                                        </article>
-                                                                    </div>
-                                                                    <div class="clear"></div>
-                                                                </div>
-                                                            </section>
-                                                            <!-- End Page Blog - Post 2 -->
-
-                                                            <!-- Page Blog - Post 3 -->
-                                                            <section id="post-3-page" class="content-post" style="display: none">
-                                                                <div class="row inner">
-
-                                                                    <div class="col-md-12" style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;float: left;background: rgba(255, 255, 255, 0.8);padding-bottom: 15px;padding-top: 15px;">
-
-                                                                        <article class="postPage">
-
-
-                                                                            <div class="col-md-12 post_media">
-
-                                                                                <div class="post-format-icon">
-                                                                                    <a href="#" class="item-date"><span class="fa fa-picture-o"></span></a>
-                                                                                </div>
-
-                                                                                <div class="media">
-                                                                                    <div class="he-wrap tpl2">
-                                                                                        <img src="http://placehold.it/825x340" class="img-hover" alt="">
-                                                                                    </div>
-
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="title_content">
-                                                                                <div class="text_content">BLOG POST IMAGE</div>
-                                                                                <div class="clear"></div>
-                                                                            </div>
-
-
-                                                                            <p class="caps">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with.</p>
-
-                                                                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-
-                                                                            <div class="col-md-12 first">
-                                                                                <div class="info">
-                                                                                    <div>
-                                                                                        <span class="tag">#php</span>
-                                                                                        <span class="tag">#web</span>
-                                                                                        <span class="tag">#web design</span>
-                                                                                    </div>
-
-
-                                                                                    <ul class="info-post">
-                                                                                        <li><i class="glyphicon glyphicon-comment"></i> 2 Comments</li>
-                                                                                        <li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
-                                                                                        <li><i class="glyphicon glyphicon-user"></i> by Jane Doe</li>
-                                                                                        <li><i class="glyphicon glyphicon-tag"></i> Photoshop</li>
-                                                                                    </ul>
-                                                                                </div>
-
-                                                                                <div class="clear"></div>      
-
-
-                                                                                <div class="about_author">
-                                                                                    <div class="title_content" style="margin-bottom:10px">
-                                                                                        <div class="text_content">BILL GATES</div>
-                                                                                        <div class="clear"></div>
-                                                                                    </div>
-
-                                                                                    <div class="clear"></div>
-
-
-                                                                                    <div class="prg_content">
-                                                                                        <img src="http://placehold.it/100x100" width="100" height="100" alt="img">
-
-                                                                                        <div class="text">
-                                                                                            Lorem ipsum dolor sit amet, consectetur
-                                                                                            adipiscing elit. Praesent condimentum sed elit
-                                                                                            vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                            amet cursus libero. In fringilla egestas ornare.
-                                                                                        </div>
-
-                                                                                        <div class="nb_post" style="margin-top: 10px;">
-                                                                                            <b id="nb_post"> 15 posts</b> created by author
-                                                                                        </div>
-                                                                                    </div>
-
-                                                                                    <div class="clear"></div>
-                                                                                </div>
-
-                                                                                <div class="clear"></div>      
-
-
-                                                                                <div class="post_comments">
-
-                                                                                    <div class="title_content">
-                                                                                        <div class="text_content">7 Comments</div>
-                                                                                        <div class="clear"></div>
-                                                                                    </div>
-
-                                                                                    <div class="clear"></div>
-
-                                                                                    <div class="comments">
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">John Doe <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="comment sub">
-                                                                                                <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                                <div class="text">
-                                                                                                    <div class="name">Bill Gates <a class="reply" href="#">Reply</a></div>
-                                                                                                    <div class="date">12, September, 2013</div>
-                                                                                                    Lorem ipsum dolor sit amet, consectetur
-                                                                                                    adipiscing elit. Praesent condimentum sed elit
-                                                                                                    vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                    amet cursus libero. In fringilla egestas ornare.
-                                                                                                </div>
-                                                                                                <div class="clear"></div>
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">John Smith <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="comment sub">
-                                                                                                <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                                <div class="text">
-                                                                                                    <div class="name">Bill Gates <a class="reply" href="#">Reply</a></div>
-                                                                                                    <div class="date">12, September, 2013</div>
-                                                                                                    Lorem ipsum dolor sit amet, consectetur
-                                                                                                    adipiscing elit. Praesent condimentum sed elit
-                                                                                                    vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                    amet cursus libero. In fringilla egestas ornare.
-                                                                                                </div>
-                                                                                                <div class="clear"></div>
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">Andrian Robert <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="comment sub">
-                                                                                                <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                                <div class="text">
-                                                                                                    <div class="name">Bill Gates <a class="reply" href="#">Reply</a></div>
-                                                                                                    <div class="date">12, September, 2013</div>
-                                                                                                    Lorem ipsum dolor sit amet, consectetur
-                                                                                                    adipiscing elit. Praesent condimentum sed elit
-                                                                                                    vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                    amet cursus libero. In fringilla egestas ornare.
-                                                                                                </div>
-                                                                                                <div class="clear"></div>
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-                                                                                        <div class="comment">
-                                                                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
-                                                                                            <div class="text">
-                                                                                                <div class="name">Andrian Robert <a class="reply" href="#">Reply</a></div>
-                                                                                                <div class="date">12, September, 2013</div>
-                                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                                adipiscing elit. Praesent condimentum sed elit
-                                                                                                vitae tristique. Aliquam erat volutpat. Nunc sit
-                                                                                                amet cursus libero. In fringilla egestas ornare.
-                                                                                            </div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div><!-- .comments -->
-
-
-
-                                                                                    </div><!-- .post_comments -->
-
-                                                                                    <div class="clear"></div>      
-
-
-                                                                                    <div class="comment_form">
-
-                                                                                        <div class="title_content">
-                                                                                            <div class="text_content">Leave A Comment</div>
-                                                                                            <div class="clear"></div>
-                                                                                        </div>
-
-
-                                                                                        <form method="post" id="comment_form">
-                                                                                            <p class="form-group" id="contact-name">
-                                                                                                <label for="name">Your Name</label>
-                                                                                                <input type="text" name="name" class="form-control" id="inputSuccess" placeholder="Name*...">
-                                                                                            </p>
-                                                                                            <p class="form-group" id="contact-email"> 
-                                                                                                <label for="email">Your Email</label>
-                                                                                                <input type="text" name="email" class="form-control" id="inputSuccess" placeholder="Email*...">
-                                                                                            </p>
-
-                                                                                            <p class="form-group" id="contact-message">
-                                                                                                <label for="message">Your Message</label>
-                                                                                                <textarea name="message" cols="88" rows="6" class="form-control" id="inputError" placeholder="Your Comment..."></textarea>
-                                                                                            </p>
-                                                                                            <input type="reset" name="reset" value="CLEAR" class="reset">
-                                                                                            <!--<input type="submit" name="submit" value="Post Comment" class="submit">-->
-                                                                                            <button class="submit" data-toggle="modal" data-target=".bs-example-modal-sm">Post Comment</button>
-                                                                                        </form>                        
-                                                                                        <div class="clear"></div>
-
-                                                                                    </div>
-                                                                                </div>
-
-
-                                                                                <div class="col-md-12" style="margin-top: 20px;">
-                                                                                    <a href="#" class="readmore disabled" id="pagination"><i class="glyphicon glyphicon-chevron-right"></i></a>
-                                                                                    <a href="#post-2" class="readmore" id="pagination"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                                                                                    <a href="#blog" id="blog" class="readmore"><i class="glyphicon glyphicon-chevron-left"></i> All Posts</a>
-                                                                                </div>
-
-                                                                                <div class="clear"></div>
-
-                                                                        </article>
-                                                                    </div>
-                                                                    <div class="clear"></div>
-                                                                </div>
-                                                            </section>
-                                                            <!-- End Page Blog - Post 3 -->
-
-
+<!-- start workshop -->
+                                             <!-- .workshop -->
+                                            <div id="resume" class="content_2">
+                                                <!-- .title -->
+                                                <h1 class="h-bloc">WORKSHOP</h1> 
+
+                                                <div class="row">
+
+                                                    <!-- .resume-right -->
+                                                    <div class="col-md-12">
+
+                                                        <!-- .title_content -->
+                                                        <div class="title_content" style="float: none;">
+                                                            <div class="text_content">My Timeline</div>
+                                                            <div class="clear"></div>
                                                         </div>
+                                                        <!-- /.title_content -->
 
+                                                        <div class="skills">
+                                                            <ul class="timeline">
+                                                                <li>
+                                                                  <div class="timeline-badge"><i class="fa fa-bicycle"></i> <p>RP Visit</p></div>
+                                                                  <div class="timeline-panel">
+                                                                    <div class="timeline-heading">
+                                                                      <h4 class="timeline-title">Royale Palace Visit</h4>
+                                                                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                                                                    </div>
+                                                                    <div class="timeline-body">
+                                                                      <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                                                    </div>
+                                                                  </div>
+                                                                </li>
 
-                                                        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                                                            <div class="modal-dialog modal-sm">
-                                                                <div class="modal-content">
-                                                                    <div class="modal-header">
-                                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                                        <h3 class="modal-title h3_modal" style="color: #fff !important;">FlexyVcard - Responsive Vcard Template</h3>
+                                                                <li class="timeline-inverted">
+                                                                    <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                                                                    <div class="timeline-panel">
+                                                                        <div class="timeline-heading">
+                                                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                                                        </div>
+                                                                        <div class="timeline-body">
+                                                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="modal-body">
-                                                                        <p>FlexyVcard is an impressive and professional online vcard, a beautiful portfolio with sliding effect, resume and contact information with Google map.</p>
-                                                                        <p>It’s simple! Just download and install in a few minutes, you can show your online card to your friend, customer or employer in an interview by phone or tablet. Because FlexyVcard is a responsive template, you can view your website on pc as well as handheld devices. You can also link to your social profiles, display your portfolio in many media format such as image, youtube video, flash...</p>
-                                                                    </div>
-                                                                    <div class="modal-footer">
-                                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                                </li>
+                                                            </ul>
                                                         </div>
-
                                                     </div>
+                                                    <!-- /.workshop-right -->
                                                 </div>
-
+                                                <div style="clear: both"></div>
                                             </div>
-                                            <!-- End .blog -->
+<!-- End of page workshop -->
+
 <!-- This is the page Contact -->
                                             <!-- .contact -->
                                             <div id="contact" class="content_2">
@@ -2015,7 +1090,9 @@
                                                 <div class="row">
 
                                                     <div class="col-lg-12">
-                                                        <div id="map"></div>
+                                                        <div id="map" style='width:100%;height:100%;'>
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15636.063574930504!2d104.8863393!3d11.5507174!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2skh!4v1490009835490" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                                        </div>
                                                     </div>  
 
                                                     <div class="col-lg-12">
@@ -2030,14 +1107,15 @@
                                                                     </div>
 
                                                                     <ul>
-                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-map-marker"></i> Adress:</span> San Francisco , CA.<br /><br /></li>
-                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-envelope"></i> Email:</span> brown.smith@gmail.com</li>
-                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-phone"></i> Phone:</span> +123 456 789 111</li>
-                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-globe"></i> Website:</span> www.brown-smith.com</li>
-                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-comment"></i> Skype:</span> brown-smith-skype</li>
-                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-thumbs-up"></i> G. Drive:</span> brown-s-gm@gmail.com</li>
-                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-unchecked"></i> Skydrive:</span> brown-s-sk@hotmail.com</li>
-                                                                    </ul>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-map-marker"></i> Adress:</span> Phnom Penh, Cambodia<br /></li>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-envelope"></i> Email:</span> sochetra12.nov@gmail.com</li>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-phone"></i> Phone:</span> 098 421 692 </li>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-globe"></i> Website:</span> www.sochetra-nov-ezyro.com</li>
+<!--                                                                        <li><span class="span-info"><i class="fa fa-skype"></i> Skype:</span> sochetra.NOV</li>
+                                                                        <li><span class="span-info"><i class="fa fa-facebook"></i> Facebook:</span> messi KH</li>
+                                                                        <li><span class="span-info"><i class="fa fa-twitter"></i> Twitter:</span> sochetra  NOV</li>
+                                                                        <li><span class="span-info"><i class="fa fa-linkedin"></i> LinkedIn:</span> sochetra  NOV</li>
+                                                                    </ul>-->
                                                                 </div>
                                                                 <!-- /Contact Info -->
                                                                 <div class="clear"></div>
@@ -2055,8 +1133,8 @@
                                                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                                                     <a href="#"><i class="fa fa-twitter"></i></a>
                                                                     <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa fa-dribbble"></i></a>
-                                                                    <a href="#"><i class="fa fa-foursquare"></i></a>
+                                                                    <a href="#"><i class="fa fa fa-skype"></i></a>
+                                                                    <a href="#"><i class="fa fa-google-plus"></i></a>
                                                                     <div class="clear"></div>
                                                                 </div>
 
@@ -2164,8 +1242,8 @@
 
         <!-- Js | gmaps -->
         <!-- Credits: http://maps.google.com/maps/api/js?sensor=true-->
-        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/gmaps.min.js"></script>
+<!--        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript" src="<?php //echo base_url(); ?>assets/js/gmaps.min.js"></script>-->
 
         <!-- Js | Js -->
         <!-- Credits: http://themeforest.net/user/FlexyCodes -->
