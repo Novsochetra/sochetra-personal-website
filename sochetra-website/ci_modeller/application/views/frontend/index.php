@@ -34,12 +34,12 @@
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/colors/darkBlue.css" />
 
          <!-- CSS | Style Timeline -->
-        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/timeline-style.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
 
         <!-- CSS | Style -->
         <!-- Credits: http://themeforest.net/user/FlexyCodes -->
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/main.css" />
-        <!-- <link rel="stylesheet" href="<?php //echo base_url(); ?>assets/css/customize-main.css"> -->
+            <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/main.css" />
+         <!--<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/customize-main.css">--> 
 
         <!-- CSS | prettyPhoto -->
         <!-- Credits: http://www.no-margin-for-errors.com/ -->
@@ -195,7 +195,8 @@
 
                                             <li class="tabs-blog hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="blog">
                                                 <span class="tite-list">blog</span>
-                                                <i class="fa fa-users icon_menu"></i>
+                                                <!--<i class="fa fa-users icon_menu"></i>-->
+                                                <img src="<?php echo base_url(); ?>assets/images/icon-menu.png" class="icon_menu"/>
                                             </li>
 
                                             <!-- <li class="tabs-blog hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="blog">
@@ -1047,30 +1048,75 @@
 
                                                         <div class="skills">
                                                             <ul class="timeline">
-                                                                <li>
-                                                                  <div class="timeline-badge"><i class="fa fa-bicycle"></i> <p>RP Visit</p></div>
+                                                                <?php 
+                                                                    $timelineData = array(
+                                                                            array(  "iconClass"    => "fa-bicycle",
+                                                                                    "float"    => " ",
+                                                                                    "title"  => "Royale Palace Visit",
+                                                                                    "content"   =>"This event is organize by <b>PNC</b> . The objective of workshop is want to make student more closely 
+                                                                                                    to each other and gain knowledge about our historical of the Royale Palace. The workshop start in the morning 7 am to 11:30 am.
+                                                                                                    We travel to Royale Palace by ourself. Before finish workshop we have a small presentation that summary about the history of 
+                                                                                                    Royale Palace which guide told us.",
+                                                                                    "time"  => "2017"
+                                                                                ),
+
+                                                                            array(  "iconClass"    => "fa-check",
+                                                                                    "float"    => "timeline-inverted",
+                                                                                    "title"  => "BarCamp Asean",
+                                                                                    "content"   =>"This event is held by Norton University and have many company that joi these event to show their technology.
+                                                                                                    The student that join event can bring their CV to apply at the company also.",
+                                                                                    "time"  => "4-6 November 2016"
+                                                                                ),
+                                                                            array(  "iconClass"    => "fa-rocket",
+                                                                                    "float"    => "",
+                                                                                    "title"  => "Career Forum PNC",
+                                                                                    "content"   =>"This event is held by PNC. The participant who join this event they can apply for the company which they like. These event also join by many successfull person such as Mr. SOK Sopheak Mongkol etc.",
+                                                                                    "time"  => "24 Set 2016"
+                                                                                ),
+                                                                            array(  "iconClass"    => "fa-briefcase",
+                                                                                    "float"    => "timeline-inverted",
+                                                                                    "title"  => "Inno Tech",
+                                                                                    "content"   =>"This event is held by Institute Technology Cambodia. The purpose of these event is want to show the technolgy that improve in cambodia and joined by many NGO and University in Cambodia.",
+                                                                                    "time"  => "19 March 2016"
+                                                                                ),
+                                                                        );
+                                                                    foreach ($timelineData as $key ) {
+                                                                   
+                                                                 ?>
+                                                                <li class="<?php echo  $key['float']?>">
+                                                                  <div class="timeline-badge"><i class="fa <?php echo $key['iconClass']; ?>"></i> </div>
                                                                   <div class="timeline-panel">
                                                                     <div class="timeline-heading">
-                                                                      <h4 class="timeline-title">Royale Palace Visit</h4>
-                                                                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                                                                      <h4 class="timeline-title"><?php echo $key['title']; ?></h4>
+                                                                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> <?php echo $key['time'] ?></small></p>
                                                                     </div>
                                                                     <div class="timeline-body">
-                                                                      <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                                                        <p class="hidden-lg hidden-sm hidden-md hidden-xs" id="<?php echo $key['iconClass'] ?>">
+                                                                            <?php echo $key['content']; ?>
+                                                                        </p>
                                                                     </div>
                                                                   </div>
                                                                 </li>
-
-                                                                <li class="timeline-inverted">
+                                                                
+                                                                <?php 
+                                                                    }
+                                                                 ?>
+            
+                                                                <!-- <li class="timeline-inverted">
                                                                     <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
                                                                     <div class="timeline-panel">
                                                                         <div class="timeline-heading">
-                                                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                                                            <h4 class="timeline-title">BarCamp Asean</h4>
+                                                                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 4-6 November 2016</small></p>
                                                                         </div>
                                                                         <div class="timeline-body">
-                                                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                                                            <p class="hidden-lg hidden-sm hidden-md hidden-xs" id="glyphicon-check">
+                                                                                This event is held by Norton University and have many company that joi these event to show their technology.
+                                                                                The student that join event can bring their CV to apply at the company also.
+                                                                            </p>
                                                                         </div>
                                                                     </div>
-                                                                </li>
+                                                                </li> -->
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -1248,7 +1294,8 @@
         <!-- Js | Js -->
         <!-- Credits: http://themeforest.net/user/FlexyCodes -->
         <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/main.js"></script>
-
+        <script src="<?php echo base_url(); ?>assets/js/test.js"></script>
+        
         <!-- code js for image rotate -->
         <script type="text/javascript">
 
@@ -1293,7 +1340,7 @@
                 imageOne.setImageDirection();
 
             }
-
+           
         </script>
 
 

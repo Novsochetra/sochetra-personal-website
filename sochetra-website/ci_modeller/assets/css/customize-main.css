@@ -1,0 +1,36 @@
+#profile_social #facebook:hover {
+    color: #3b5998;
+    background-color: white;
+}
+#profile_social #twitter:hover {
+    color: #428bca;
+    background-color: white;
+}
+
+#profile_social #google-plus:hover {
+    color: #f44336;
+    background-color: white;
+}
+
+/* Start Timeline */
+.timeline > li > .timeline-panel {
+    width: 44%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+   
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #6c3ccc;
+    left: 50%;
+    margin-left: -1.5px;
+}
+/* End Timeline */
